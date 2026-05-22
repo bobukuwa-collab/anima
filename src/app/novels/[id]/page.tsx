@@ -137,11 +137,11 @@ export default async function NovelPage({ params }: { params: { id: string } }) 
               <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide px-1">執筆人格診断</h2>
               <PersonalityCard
                 psychopathy_score={personality.psychopathy_score}
+                strategist_score={personality.strategist_score}
+                narcissism_score={personality.narcissism_score}
                 empathy_score={personality.empathy_score}
-                imagination_score={personality.imagination_score}
-                darkness_score={personality.darkness_score}
-                personality_type={personality.personality_type}
-                character_title={personality.character_title}
+                vocabulary_score={personality.vocabulary_score}
+                writer_type={personality.writer_type}
                 analysis_text={personality.analysis_text}
               />
             </div>

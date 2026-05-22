@@ -16,11 +16,11 @@ vi.mock('@/lib/ai/continue-story', () => ({
 vi.mock('@/lib/ai/analyze-personality', () => ({
   analyzePersonality: vi.fn().mockResolvedValue({
     psychopathy_score: 50,
+    strategist_score: 50,
+    narcissism_score: 50,
     empathy_score: 50,
-    imagination_score: 50,
-    darkness_score: 50,
-    personality_type: 'テスト',
-    character_title: 'テスト称号',
+    vocabulary_score: 50,
+    writer_type: '沈黙の万華鏡',
     analysis_text: 'テスト分析',
   }),
 }))

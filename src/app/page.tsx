@@ -15,11 +15,11 @@ export default async function HomePage() {
         <div className="max-w-lg mx-auto space-y-10 text-center">
 
           <div className="space-y-3">
-            <p className="text-xs font-semibold tracking-widest text-indigo-500 uppercase">Human × AI Collaborative Novel</p>
+            <p className="text-xs font-semibold tracking-widest text-indigo-500 uppercase">Anima — あなたの書く魂を解剖する</p>
             <h1 className="text-4xl font-black text-gray-900">AIと小説を書こう</h1>
             <p className="text-gray-500 text-base leading-relaxed">
               あなたとAIが交互に文章を紡ぎ、ひとつの物語を作ります。<br />
-              完成後、あなたの<span className="font-semibold text-indigo-600">執筆の癖と人格</span>をAIが占います。
+              完成後、あなたの<span className="font-semibold text-indigo-600">書き手としての人格</span>を5軸で診断します。
             </p>
           </div>
 
@@ -27,7 +27,7 @@ export default async function HomePage() {
           <div className="grid grid-cols-2 gap-3 text-left">
             {[
               { emoji: '✍️', title: '交互執筆', desc: 'あなた→AI→あなた…と交互に物語を紡ぐ' },
-              { emoji: '🧠', title: '人格占い', desc: 'サイコパス度・共感力・闇度などを分析' },
+              { emoji: '🧠', title: '人格診断', desc: 'サイコパス度・策士度・共感力など5軸で分析' },
               { emoji: '📚', title: 'ライブラリ', desc: '完成した作品をライブラリで公開' },
               { emoji: '🎭', title: 'ジャンル選択', desc: '10ジャンルからテーマを選んで執筆' },
             ].map((f) => (
